@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Intro component with sign up form</title>
+
+  <style>
+    .attribution { font-size: 12px; color: white; text-align: center; }
+    .attribution a { color: hwb(228 24% 36%); }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <main>
+    <div class="container">
+      <div class="detail-container">
+        <h1 class="heading">Learn to code by <br> watching others</h1>
+        <p class="detail">
+          See how experienced developers solve problems in real-time. <br> Watching scripted tutorials is great, 
+          but understanding how <br> developers think is invaluable.
+        </p>
+      </div>
+      <div class="form-container">
+        <div class="deal"><span class="white">Try it free 7 days</span> then $20/mo. thereafter</div>
+        <form>
+          <div class="input-container">
+            <input class="firstName" type="text" placeholder="First Name">
+            <img class="error-svg error-firstName" src="./images/icon-error.svg" alt="">
+            <p class="error-message error-firstName">First Name cannot be empty</p>
+          </div>
+          <div class="input-container">
+            <input class="lastName" type="text" placeholder="Last Name">
+            <img class="error-svg error-lastName" src="./images/icon-error.svg" alt="">
+            <p class="error-message error-lastName">Last Name cannot be empty</p>
+          </div>
+          <div class="input-container">
+            <input class="email" type="email" placeholder="Email Address">
+            <img class="error-svg error-email" src="./images/icon-error.svg" alt="">
+            <p class="error-message error-email">Email cannot be empty</p>
+          </div>
+          <div class="input-container">
+            <input class="password" type="password" placeholder="Password">
+            <img class="error-svg error-password" src="./images/icon-error.svg" alt="">
+            <p class="error-message error-password">Password cannot be empty</p>
+          </div>
+          <div class="btn">
+            <button>CLAIM YOUR FREE TRIAL</button>
+            
+          </div>
+          <div class="terms-container">
+            <p class="terms">By clicking the button, you are agreeing to our <span class="red">Terms and Services</span></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Giuseppe</a>.
+    </p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
